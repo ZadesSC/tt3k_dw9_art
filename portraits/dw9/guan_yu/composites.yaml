@@ -1,6 +1,6 @@
 enabled: True
 arts:
-  3k_main_hero_special_fire_gan_ning:
+  3k_main_hero_special_wood_guan_yu:
     - file: noanim.png
       type: replace
       source: head.png

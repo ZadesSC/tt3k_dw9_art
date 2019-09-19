@@ -1,6 +1,6 @@
 enabled: True
 arts:
-  3k_main_hero_special_metal_huang_zhong:
+  3k_main_hero_special_fire_dong_zhuo:
     - file: head.png
       type: replace
       source: head.png

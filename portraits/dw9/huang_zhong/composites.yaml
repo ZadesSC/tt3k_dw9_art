@@ -1,6 +1,100 @@
 enabled: True
 arts:
-  3k_main_hero_special_wood_guan_yu:
+  3k_main_hero_special_metal_huang_zhong:
+    - file: head.png
+      type: replace
+      source: head.png
+      locations:
+        - path: composites/large_panel/angry
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/large_panel/happy
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/large_panel/norm
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/small_panel/angry
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/small_panel/happy
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/small_panel/norm
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+    - file: arm_left.png
+      type: blank
+      locations:
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+    - file: arm_left_behind.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/small_panel/angry
+    - file: arm_left_front.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/small_panel/angry
+    - file: arm_left_shadow.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+    - file: arm_right.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+    - file: torso.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+    - file: legs.png
+      type: blank
+      locations:
+        - path: composites/large_panel
+        - path: composites/small_panel
+  3k_main_hero_special_water_huang_zhong:
     - file: head.png
       type: replace
       source: head.png
@@ -56,15 +150,11 @@ arts:
         - path: composites/small_panel/angry
         - path: composites/small_panel/happy
         - path: composites/small_panel/norm
-    - file: arm_left_hand.png
+    - file: arm_left_front.png
       type: blank
       locations:
         - path: composites/large_panel/angry
-        - path: composites/large_panel/happy
-        - path: composites/large_panel/norm
         - path: composites/small_panel/angry
-        - path: composites/small_panel/happy
-        - path: composites/small_panel/norm
     - file: arm_right.png
       type: blank
       locations:
@@ -74,6 +164,15 @@ arts:
         - path: composites/small_panel/angry
         - path: composites/small_panel/happy
         - path: composites/small_panel/norm
+    - file: eyes_blink.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry/facial_animations
+        - path: composites/large_panel/happy/facial_animations
+        - path: composites/large_panel/norm/facial_animations
+        - path: composites/small_panel/angry/facial_animations
+        - path: composites/small_panel/happy/facial_animations
+        - path: composites/small_panel/norm/facial_animations
     - file: torso.png
       type: blank
       locations:
@@ -86,10 +185,9 @@ arts:
     - file: legs.png
       type: blank
       locations:
-        - path: composites/large_panel
-        - path: composites/small_panel
-    - file: mid.png
-      type: blank
-      locations:
-        - path: composites/large_panel
-        - path: composites/small_panel
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
