@@ -1,0 +1,98 @@
+enabled: True
+arts:
+  3k_main_hero_special_metal_xu_huang:
+    - file: head.png
+      type: replace
+      source: head.png
+      locations:
+        - path: composites/large_panel/angry
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/large_panel/happy
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/large_panel/norm
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/small_panel/angry
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/small_panel/happy
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/small_panel/norm
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+    - file: arm_left.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+    - file: arm_right.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+    - file: legs.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+        - path: composites/large_panel
+        - path: composites/small_panel
+    - file: mid.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+        - path: composites/large_panel
+        - path: composites/small_panel
+    - file: torso.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
