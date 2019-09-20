@@ -50,57 +50,85 @@ arts:
     - file: arm_left.png
       type: blank
       locations:
-        - path: composites/large_panel/angry
         - path: composites/large_panel/happy
+        - path: composites/small_panel/happy
+    - file: arm_left_back.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
         - path: composites/large_panel/norm
         - path: composites/small_panel/angry
-        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+    - file: arm_left_front.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
         - path: composites/small_panel/norm
     - file: arm_right.png
       type: blank
       locations:
-        - path: composites/large_panel/angry
         - path: composites/large_panel/happy
-        - path: composites/large_panel/norm
-        - path: composites/small_panel/angry
         - path: composites/small_panel/happy
-        - path: composites/small_panel/norm
-    - file: cape.png
-      type: blank
-      locations:
-        - path: composites/large_panel/angry/extra
-        - path: composites/large_panel/happy/extra
-        - path: composites/large_panel/norm/extra
-        - path: composites/small_panel/angry/extra
-        - path: composites/small_panel/happy/extra
-        - path: composites/small_panel/norm/extra
-    - file: torso.png
-      type: blank
-      locations:
-        - path: composites/large_panel/angry
-        - path: composites/large_panel/happy
-        - path: composites/large_panel/norm
-        - path: composites/small_panel/angry
-        - path: composites/small_panel/happy
-        - path: composites/small_panel/norm
-    - file: torso_shoulder.png
+    - file: arm_right_back.png
       type: blank
       locations:
         - path: composites/large_panel/angry
         - path: composites/large_panel/norm
         - path: composites/small_panel/angry
         - path: composites/small_panel/norm
-    - file: torso_shoulder_right.png
+    - file: arm_right_front.png
       type: blank
       locations:
+        - path: composites/large_panel/angry
+        - path: composites/small_panel/angry
+    - file: eyes_blink.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry/facial_animations
+        - path: composites/large_panel/happy/facial_animations
+        - path: composites/large_panel/norm/facial_animations
+        - path: composites/small_panel/angry/facial_animations
+        - path: composites/small_panel/happy/facial_animations
+        - path: composites/small_panel/norm/facial_animations
+    - file: head_front.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
         - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
         - path: composites/small_panel/happy
-    - file: legs.png
-      type: blank
-      locations:
-        - path: composites/large_panel
-        - path: composites/small_panel
+        - path: composites/small_panel/norm
     - file: mid.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+    - file: torso_inside.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+    - file: torso_upper.png
+      type: blank
+      locations:
+        - path: composites/large_panel/angry
+        - path: composites/large_panel/happy
+        - path: composites/large_panel/norm
+        - path: composites/small_panel/angry
+        - path: composites/small_panel/happy
+        - path: composites/small_panel/norm
+    - file: legs.png
       type: blank
       locations:
         - path: composites/large_panel

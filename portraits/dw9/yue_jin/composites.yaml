@@ -1,0 +1,49 @@
+enabled: True
+arts:
+  3k_main_hero_special_metal_yue_jin:
+    - file: noanim.png
+      type: replace
+      source: head.png
+      locations:
+        - path: composites/large_panel/angry
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/large_panel/happy
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/large_panel/norm
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/small_panel/angry
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/small_panel/happy
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
+        - path: composites/small_panel/norm
+          type: angry
+          x_pos: -25
+          y_pos: -75
+          z_order: 0
+          x_pivot: 0.5000
+          y_pivot: 0.5000
